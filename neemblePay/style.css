@@ -1,0 +1,912 @@
+
+
+*{
+    margin: 0;
+    }
+
+body h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+}
+
+body p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: #1f1f29;
+    line-height: 140%;
+
+}
+
+body h2{
+    font-size: 64px;
+    font-family: 'Oswald', sans-serif;
+}
+
+body h3{
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body h4{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+
+body h5{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+/*navigation bar section*/
+
+nav{
+  width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #aaa;
+    position: fixed;
+    top: 0;    
+}
+
+nav svg{
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: inline;
+}
+
+nav ul{
+    margin-left: 250px;
+    display: inline;
+    position: relative;
+    bottom: 15px; 
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+
+
+nav ul li a{
+    color: #0e001c;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: grey;
+}
+
+nav select{
+    background-color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0e001c;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav select option{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+ nav select:hover{
+    color: grey;
+}
+
+.login-link{
+    text-decoration: none;
+    color: #0e001c;
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.login-link:hover{
+    color: grey;
+}
+
+nav button{
+   float: right; 
+    margin-right: 100px;
+    margin-top: 15px;
+    background-color: #0a09ca;
+    padding: 5px 15px;
+    border: 1px solid #0a09ca;
+    border-radius: 4px 4px 4px 4px;    
+}
+
+nav button:hover{
+    background-color: #0e001c;
+}
+
+nav button a{
+    font-weight: bold;
+    color: #fff;
+}
+
+/*go cardless with neemblepay section*/
+
+/*text area*/
+
+#go-cardless{
+    background-color: #fff;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box{
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text-box button{
+     background-color: #0a09ca;
+    padding: 15px 30px;
+    border: 1px solid #0a09ca;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.text-box button:hover{
+    background-color: #0e001c;
+}
+
+.text-box button a{
+    font-weight: bold;
+    color: #fff;  
+}
+
+.text-box div{
+    width: 200px;
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+}
+
+.text-box div p{
+    font-size: 14px;
+    padding-left: 28px;
+    margin-top: -28px;
+}
+
+#go-cardless h1{
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -2%;
+    margin-bottom: 30px;
+}
+
+#go-cardless p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+.demo-img{
+    width: 20px;
+    color: #fff;
+    margin-top: 5px;
+    display: inline;
+}
+
+/*picture area*/
+
+.img-box svg{
+    margin-top: 180px;
+
+}
+
+/*access funds without card section*/
+
+#access-funds{
+    margin-top: 400px;   
+}
+
+#access-funds div{
+    margin-top: 80px;
+}
+
+#access-funds h2, p{
+    text-align: center;
+}
+
+/*text area*/
+
+.cardless-text-box{
+    height: 450px;
+    width: 1100px;
+    margin: auto;
+    border: 1px solid #aaa;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #f9f9fa;
+}
+
+.cardless-text-box button{
+    background-color: #ff9924;
+    padding: 10px 30px;
+    border: 1px solid #ff9924;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+}
+
+.cardless-text-box button:hover{
+    background-color: #0a09ca;
+}
+
+.cardless-text-box .payment-btn{
+    background-color: #f9f9fa;
+    padding: 10px 30px;
+    border: 1px solid #f9f9fa;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+
+.cardless-text-box .payment-btn:hover{
+    background-color: #0e001c;
+}
+
+.cardless-text-box .payment-btn a{
+    color: #1f1f29;
+}
+
+.cardless-text-box .payment-btn a:hover{
+    color: #fff;
+}
+
+.cardless-text-box button a{
+    font-weight: bold;
+    color: #fff;
+}
+
+.cardless-text-box h4{
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.cardless-text-box p{
+    text-align: justify;
+    margin-bottom: -60px;
+    margin-left: 80px;
+}
+
+.arrow{
+    width: 16px;
+    position: relative;
+    top: 4px;
+}
+
+.view-case-box{
+    margin-left: 80px;
+    width: 150px;
+}
+
+.view-case-box a{
+    color:  #0a09ca;
+}
+
+.view-case-box a:hover{
+    color: #ff9924;
+}
+
+/*access funds picture area*/
+.picture-box svg{
+    float: right;
+    margin-top: -500px;
+    margin-right: 250px; 
+}
+
+/*why neemble section*/
+#why-neemble{
+    background-color: #f9f9fa;
+    width: 100%;
+    margin-top: 150px;
+    padding-top: 100px;
+    height: 800px;
+}
+
+#why-neemble h3{
+    text-align: center;
+}
+
+/*biometric section*/
+.biometric-box{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-right: 3px solid #ddd;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.biometric-box svg{
+    margin-top: 30px;
+}
+
+.biometric-box h5{
+    margin: 20px auto;
+}
+
+.biometric-box p{
+    font-size: 14px;
+}
+
+/*encrypted section */
+.secure-box{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-right: 3px solid #ddd;
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+}
+
+.secure-box svg{
+     margin-top: 30px;
+}
+
+.secure-box h5{
+     margin: 20px auto;
+}
+
+.secure-box p{
+    font-size: 14px;
+}
+/*built for you section*/
+.built-box{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    left: 900px;
+    bottom: 800px;
+}
+
+.built-box svg{
+     margin-top: 30px;
+}
+
+.built-box h5{
+     margin: 20px auto;
+}
+
+.built-box p{
+   font-size: 14px; 
+}
+
+/*experience section*/
+/*pic area*/
+.iphone{
+   margin-left: 80px; 
+}
+
+.iphone svg{
+   height: 400px;
+    padding-top: 120px;
+}
+/*text area*/
+#experience{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a09ca;
+    height: 600px;
+}
+
+.experience-text-box{
+    margin-right: 100px;
+    padding-top: 180px;
+}
+
+.experience-text-box h4{
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.experience-text-box p{
+    text-align: justify;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.experience-text-box button{
+    background-color: #fff;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 5px 5px;  
+}
+
+.experience-text-box button:hover{
+    background-color: #0a09ca;
+}
+
+.experience-text-box button a:hover{
+    color: #fff;
+}
+
+.experience-text-box .talk-btn{
+     background-color: blue;
+    padding: 10px 25px;
+    border: 1px solid #0a09ca;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.experience-text-box .talk-btn:hover{
+    background-color: #fff;
+}
+
+.experience-text-box .talk-btn a:hover{
+    color: blue;
+}
+
+.experience-text-box .talk-btn a{
+    color: #fff;
+}
+
+.experience-text-box button a{
+    color: #0a09ca;
+    
+}
+
+/*powering smart product section*/
+#smart-product{
+    background-color: #f9f9fa;
+    height: 1000px;
+}
+
+#smart-product h3{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.product-wrapper{
+    margin-top: 60px;
+    margin-left: 270px;
+    margin-right: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-machine{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: #fff;
+    border-radius:  30px 30px 30px 30px;
+    box-shadow: 1px 1px 1px 1px #aaa;
+}
+
+.payment-machine svg{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.payment-machine h5{
+    padding-bottom: 20px;
+}
+
+.payment-machine p{
+   font-size: 14px; 
+}
+
+/*merchant store section*/
+
+.merchnat-store{
+     width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px 30px 30px 30px;
+     box-shadow: 1px 1px 1px 1px #aaa;
+}
+
+.merchnat-store svg{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.merchnat-store h5{
+    padding-bottom: 20px;
+}
+
+.merchnat-store p{
+    font-size: 14px;
+}
+
+/*build products with API section*/
+
+#build-products{
+    background-color: #0e001c;
+    height: 700px;
+}
+
+.build-products-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin: auto 130px;
+}
+
+.build-products-wrapper .pic{
+    height: 500px;
+    width: 500px;
+    background-color: #ddd;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.build-products-wrapper .text{
+    color: #fff;
+}
+
+.text h3{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.text p{
+   text-align: justify; 
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.text .api-btn{
+   background-color: blue;
+    padding: 15px 25px;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 5px 5px; 
+    border: 1px solid blue;
+}
+
+.text .api-btn:hover{
+    background-color: #0e001c
+}
+
+.text .api-btn a{
+    color: #fff;
+}
+
+.text .doc-btn{
+   background-color: #0e001c;
+    padding: 15px 25px;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #0e001c;
+}
+
+.text .doc-btn:hover{
+    background-color: blue;
+}
+
+.text .doc-btn a{
+    color: #fff;
+}
+
+/*new section*/
+#new-section{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+/*provide support*/
+
+.provide-support-div{
+    margin-left: 60px;
+}
+
+.provide-support-div svg{
+    padding-bottom: 30px;
+}
+
+
+.provide-support-div h5{
+    padding-bottom: 30px;
+}
+
+.provide-support-div p{
+    font-size: 14px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.provide-support-div a{
+    font-weight: bold;
+    color: #000;
+}
+
+.provide-support-div a:hover{
+    color: #ff9924;
+}
+/*FAQS*/
+.faqs-div{
+    
+}
+
+.faqs-div svg{
+     padding-bottom: 30px;
+}
+
+.faqs-div h5{
+     padding-bottom: 30px;
+}
+
+.faqs-div p{
+    text-align: justify;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+
+.faqs-div a{
+    font-weight: bold;
+    color: #000;
+}
+
+.faqs-div a:hover{
+    color: #ff9924;
+}
+/*develpers community*/
+.developers-community-div{
+    margin-right: 60px;
+}
+
+.developers-community-div svg{
+     padding-bottom: 30px;
+}
+
+.developers-community-div h5{
+     padding-bottom: 30px;
+}
+
+.developers-community-div p{
+    text-align: justify;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.developers-community-div a{
+    font-weight: bold;
+    color: #000;
+}
+
+.developers-community-div a:hover{
+    color: #ff9924;
+}
+
+/*footer*/
+footer{
+   background-color: #1f1f29; 
+    height: 1000px;
+    padding-top: 200px;
+}
+
+footer div h5{
+    color: #fff;
+}
+
+.subscribe-div{
+    height: 400px;
+    width: 1000px;
+    background-color: #0a09ca;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.subscribe-div h4{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.subscribe-div p{
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.subscribe-div form{
+    
+}
+
+.subscribe-div input{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
+
+.subscribe-div button{
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    background-color: #1f1f29;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.subscribe-div button:hover{
+    background-color: #ff9924;
+}
+/*unordered list*/
+footer ul{
+    
+}
+
+footer ul li{
+   list-style: none;
+    padding: 10px;
+}
+
+footer ul li a{
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-wrapper{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+/*simple scan and pay page*/
+
+#accept-payment{
+    margin-top: 250px;
+}
+
+.accept-wrapper{
+    
+}
+
+.accept-wrapper h1{
+    padding-bottom: 30px;
+}
+
+.accept-wrapper p{
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.accept-wrapper button{
+    padding: 15px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 10px;
+    background-color: #0a09ca;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.accept-wrapper button:hover{
+      background-color: #1f1f29;
+}
+
+.accept-wrapper button a{
+    color: #fff;
+}
+
+
+/*features section*/
+#features{
+    margin-top: 150px;
+   background-color: #f9f9fa; 
+}
+
+#features h1{
+    padding-top: 120px;
+    text-align: center;  
+}
+
+#features p{
+    
+}
+
+.box-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 60px;
+}
+/*teamwork*/
+
+.teamwork{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.teamwork h5{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.teamwork p{
+    padding-bottom: 100px;
+}
+/*transparency*/
+
+.transparency{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.transparency h5{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.transparency p{
+    padding-bottom: 100px;
+}
+
+/*trust*/
+
+.trust{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.trust h5{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.trust p{
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
